@@ -78,7 +78,7 @@ vi.mock('../tools/memoryTool', () => ({
   MemoryTool: vi.fn(),
   setGeminiMdFilename: vi.fn(),
   getCurrentGeminiMdFilename: vi.fn(() => 'QWEN.md'), // Mock the original filename
-  DEFAULT_CONTEXT_FILENAME: 'QWEN.md',
+  DEFAULT_CONTEXT_FILENAME: 'SPEC.md',
   GEMINI_CONFIG_DIR: '.gemini',
 }));
 
